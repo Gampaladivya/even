@@ -1,0 +1,21 @@
+import java.util.*;
+class even {
+    public static void main(String[] args) {
+        int num;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number"); 
+        num=sc.nextInt();
+        if(num%2==0)
+        System.out.println(num +"is even");
+        else
+        System.out.println(num +"is odd");
+    }
+}
+java -cp /tmp/3JqSvmrsJ6 odd
+enter a number
+13
+13is odd
+java -cp /tmp/3JqSvmrsJ6 odd
+enter a number
+10
+10 is even
